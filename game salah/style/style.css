@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.mainSection {
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center; 
+}
+
+.jeuxDiv{
+    background-color:white;
+    min-width: 450px;              
+    min-height: 450px;
+    margin-top: 100px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #000; /* Bordures pour voir les éléments plus clairement */
+}
+.grid-item :hover{
+    background-color: lightseagreen;
+}
+
+
+.infoDiv{
+    background-color:black;
+    min-width: 350px;
+    min-height: 450px;
+    margin-top: 100px;
+}
+
+.infoDiv-information{
+    background-color: white;
+    min-width: 250px;
+    min-height: 125px;
+    margin: 20px;
+}
+.infoDiv-points{
+    background-color: white;
+    min-width: 250px;
+    min-height: 35px;
+    margin: 20px;
+}
+.button-start{
+    background-color: greenyellow;
+    min-width: 5px;
+    min-height: 25px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+.button-start button{
+    all: unset;
+    text-align: center;
+}
+.infoDiv-information p{
+    color: black;
+}
